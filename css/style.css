@@ -47,8 +47,7 @@ svg {
 }
 
 .wrapper {
-  width: 1210px;
-  padding: 0 20px;
+  width: 1170px;
   margin: 0 auto;;
 }
 
@@ -68,7 +67,8 @@ svg {
           align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 60px 20px 44px;
+  min-height: 219px;
+  padding: 60px 0 44px;
 }
 
 .logo {
@@ -136,13 +136,15 @@ svg {
   background-repeat: no-repeat;
 }
 
+.wrapper-post-preview {
+  min-height: 464px;
+}
+
 .post-preview-content {
   position: relative;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -154,6 +156,7 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  
   padding: 45px 0 49px;
 
   color: #ffffff;
@@ -239,7 +242,8 @@ svg {
 }
 
 .wrapper-reviews {
-  padding: 43px 20px 51px;
+  min-height: 462px;
+  padding: 43px 0 51px;
 }
 
 .reviews-title {
@@ -325,7 +329,8 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 33px 20px 36px;
+  min-height: 556px;
+  padding: 33px 0 36px;
 }
 
 .promo-title {
@@ -451,6 +456,10 @@ svg {
 
 .footer {
   background-color: #575757;
+}
+
+.wrapper-footer {
+  min-height: 295px;
 }
 
 .footer-top {
